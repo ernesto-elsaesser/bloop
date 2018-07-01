@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e6e6e6;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 400%;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 110%;
+	font-weight: bold;
+	text-align: center;
+}
+
+#container {
+	width: 782px;
+	margin: 50px auto;
+	padding: 10px 15px 15px;
+	border: 1px solid #666;
+	background-color: #f7f7f7;
+	border-radius: 5px;
+}
+
+#fishcanv {
+	margin-top: 5px;
+	border: 1px solid #666;
+	background: url('img/bg.png'), repeat-x;
+}
+
+#statusbar {
+	height: 32px;
+	margin: 0;
+	color: #888;
+}
+
+#statusbar *{
+	float: left;
+}
+
+.life{
+	text-align: center;
+	font-size: 200%;
+}
+
+#kills {
+	width: 82px;
+	font-size: 150%;	
+}
+
+#clientlife {
+	width: 616px;
+}
+
+#deads {
+	float: right;
+	font-size: 150%;	
+	width: 82px;
+}
+
+.linkbox {
+    border-radius: 25px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    height: 250px;
+    width: 100%;
+}
+
+.linkcontent {
+	height: 240px;
+	padding: 5px 24px;
+	color: black;
+}
+
+.linkcontent img {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border: 1px solid #aaa;
+	border-radius: 15px;
+}
+
+.linkbox a, a:visited {
+    background: #F2F2F2;
+    border-radius: 20px;
+    box-shadow: 0 2px 1px rgba(255, 255, 255, 0.97) inset;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.linkbox a:hover {
+    background: #F8F8F8;
+}
+
+#footer {
+	height: 30px;
+	margin: 10px;
+	background: url('img/ft.png');
+	border-radius: 10px;
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#footer a,a:visited{
+	text-decoration: none;
+	padding-right: 8px;
+	float: right;
+	font-weight: bold;
+	color: #fcfcfc;
+	font-size: 25px; 
+	margin-top: -2px;
+}
+
+
